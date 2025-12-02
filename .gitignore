@@ -1,0 +1,12 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build & Dependencies
+node_modules/
+dist/
+target/
+venv/
+__pycache__/
+.env
+.terraform/
