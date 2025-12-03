@@ -1,0 +1,37 @@
+{
+  "name": "robust_data_processor",
+  "version": "1.0.0",
+  "description": "A scalable, multi-tenant backend system designed to ingest high-throughput logging streams, process them asynchronously, and store them securely with strict tenant isolation. Built on AWS Serverless architecture using Terraform.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyasshekar1200/robust-data-processor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shreyasshekar1200/robust-data-processor/issues"
+  },
+  "homepage": "https://github.com/shreyasshekar1200/robust-data-processor#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.943.0",
+    "@aws-sdk/client-sqs": "^3.943.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^17.2.3",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.159",
+    "@types/node": "^24.10.1",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.9.3"
+  }
+}
